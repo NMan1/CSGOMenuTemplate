@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{79588fc8-14dc-461a-95ee-ab4f7280556c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\core">
+      <UniqueIdentifier>{cd5a34b5-d5fb-4554-9b2d-3bd2e30521ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\core\hooks">
+      <UniqueIdentifier>{649024f3-7fa1-4741-bdc4-33b37b0a097e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\core\menu">
+      <UniqueIdentifier>{4fc0d857-9e55-4c66-9b97-e3393df911a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\core\menu\imgui">
+      <UniqueIdentifier>{c0ec028c-9b93-47aa-90d7-8878c300d97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\core\menu\imgui\dx9">
+      <UniqueIdentifier>{07c40fbf-8388-417c-a5fa-2cf6ff066ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies">
+      <UniqueIdentifier>{ff7bf254-b4f9-4c72-8164-6135cc89136e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies\interfaces">
+      <UniqueIdentifier>{5d0a3200-494f-413d-9e33-4571c41dff9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies\math">
+      <UniqueIdentifier>{a230e4fd-b51c-47e4-93b2-2eb4ab2944b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies\minhook">
+      <UniqueIdentifier>{1cba8a66-3557-4cb0-ba2d-a01a4421b28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies\utilities">
+      <UniqueIdentifier>{778912cd-16de-4e86-9744-f031e3ae1a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies\minhook\hde">
+      <UniqueIdentifier>{d7aac066-8f6c-4bfe-9611-35b92200c33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies\utilities\console">
+      <UniqueIdentifier>{a5ca76e1-bf57-4686-b1e9-1a2af894cda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies\utilities\md5">
+      <UniqueIdentifier>{44383830-b1e2-43f8-8e7b-f3bf79aae1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies\utilities\netvars">
+      <UniqueIdentifier>{889a4466-a38a-4fd6-a54e-86861913e038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\dependencies\utilities\renderer">
+      <UniqueIdentifier>{0a7f0c8e-e922-40ef-b3c8-e7decef23581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk">
+      <UniqueIdentifier>{0a0cabf8-4d6e-4c62-81fb-73a30b887221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk\classes">
+      <UniqueIdentifier>{3d841c4c-19be-4dc7-901e-a6f6d512d801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk\math">
+      <UniqueIdentifier>{814704f1-ef49-43db-b2fe-a6f722ca54eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk\misc">
+      <UniqueIdentifier>{56d90d4e-e09e-484d-b4cd-2276f259ffe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk\structs">
+      <UniqueIdentifier>{01a4d309-386d-4a0e-b422-d3a6aad26b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\core\features">
+      <UniqueIdentifier>{6f81185b-90ef-4dc5-81cd-d4ac9f69fe9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\core\features\skins">
+      <UniqueIdentifier>{ebbc6dfb-f318-4558-9cb0-9be36c91d52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\core\menu\cfg">
+      <UniqueIdentifier>{70361e42-d344-4578-9c83-c34de1734947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\core\menu\tabs">
+      <UniqueIdentifier>{aedf4a1a-2b24-4c4f-8c53-b5034d6647a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\hooks\hooks.hpp">
+      <Filter>core\core\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\menu.h">
+      <Filter>core\core\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\imgui\imconfig.h">
+      <Filter>core\core\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\imgui\imgui.h">
+      <Filter>core\core\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\imgui\imgui_internal.h">
+      <Filter>core\core\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\imgui\stb_rect_pack.h">
+      <Filter>core\core\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\imgui\stb_textedit.h">
+      <Filter>core\core\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\imgui\stb_truetype.h">
+      <Filter>core\core\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\imgui\dx9\imgui_impl_dx9.h">
+      <Filter>core\core\menu\imgui\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\c_csgamerulesproxy.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\c_global_vars_base.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\c_handle.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\c_hud_chat.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\glow_manager.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_app_system.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_base_client_dll.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_client_entity_list.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\I_client_mode.h">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\I_client_networkable.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\I_client_renderable.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_client_state.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_client_thinkable.h">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\I_client_unkown.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_console.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_game_event_manager.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_input.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_input_system.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_localize.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_material_system.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_net_message.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_panel.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_player_movement.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_render_view.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_surface.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_trace.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\i_weapon_system.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\imageformats.h">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\interfaces.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\iv_debug_overlay.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\iv_engine_client.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\iv_model_info.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\interfaces\iv_model_render.hpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\math\math.hpp">
+      <Filter>core\dependencies\math</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\buffer.h">
+      <Filter>core\dependencies\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\minhook.h">
+      <Filter>core\dependencies\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\trampoline.h">
+      <Filter>core\dependencies\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\hde32.h">
+      <Filter>core\dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\hde64.h">
+      <Filter>core\dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\pstdint.h">
+      <Filter>core\dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\table32.h">
+      <Filter>core\dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\table64.h">
+      <Filter>core\dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\renderer\renderer.hpp">
+      <Filter>core\dependencies\utilities\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\netvars\netvars.hpp">
+      <Filter>core\dependencies\utilities\netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\md5\md5.hpp">
+      <Filter>core\dependencies\utilities\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\console\console.hpp">
+      <Filter>core\dependencies\utilities\console</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\csgo.hpp">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\fnv.hpp">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\json.hpp">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\settings.h">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\singleton.hpp">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\utilities.hpp">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\utilities\xorstr.h">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\common_includes.hpp">
+      <Filter>core\dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\classes\c_usercmd.hpp">
+      <Filter>source-sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\classes\client_class.hpp">
+      <Filter>source-sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\classes\collideable.hpp">
+      <Filter>source-sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\classes\convar.hpp">
+      <Filter>source-sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\classes\entities.hpp">
+      <Filter>source-sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\classes\net_channel.hpp">
+      <Filter>source-sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\classes\recv_props.hpp">
+      <Filter>source-sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\classes\studio.hpp">
+      <Filter>source-sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\classes\view_setup.h">
+      <Filter>source-sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\math\utl_vector.hpp">
+      <Filter>source-sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\math\vector2d.hpp">
+      <Filter>source-sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\math\vector3d.hpp">
+      <Filter>source-sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\math\view_matrix.hpp">
+      <Filter>source-sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\misc\color.hpp">
+      <Filter>source-sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\structs\animstate.hpp">
+      <Filter>source-sdk\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\structs\dlight.hpp">
+      <Filter>source-sdk\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\structs\materials.hpp">
+      <Filter>source-sdk\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\structs\models.hpp">
+      <Filter>source-sdk\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\structs\vertex_t.hpp">
+      <Filter>source-sdk\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\structs\weaponinfo.hpp">
+      <Filter>source-sdk\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="source-sdk\sdk.hpp">
+      <Filter>source-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="core\features\skins\parser.h">
+      <Filter>core\core\features\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="core\features\features.hpp">
+      <Filter>core\core\features</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\archivex.hpp">
+      <Filter>core\core\menu\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\archivex.hpp" />
+    <ClInclude Include="core\menu\menu_helpers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\hooks\hooks.cpp">
+      <Filter>core\core\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="core\menu\menu.cpp">
+      <Filter>core\core\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="core\menu\imgui\imgui.cpp">
+      <Filter>core\core\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="core\menu\imgui\imgui_draw.cpp">
+      <Filter>core\core\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="core\menu\imgui\dx9\imgui_impl_dx9.cpp">
+      <Filter>core\core\menu\imgui\dx9</Filter>
+    </ClCompile>
+    <ClCompile Include="core\main.cpp">
+      <Filter>core\core</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\interfaces\interfaces.cpp">
+      <Filter>core\dependencies\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\math\math.cpp">
+      <Filter>core\dependencies\math</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\buffer.c">
+      <Filter>core\dependencies\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\hook.c">
+      <Filter>core\dependencies\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\trampoline.c">
+      <Filter>core\dependencies\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\hde\hde32.c">
+      <Filter>core\dependencies\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\hde\hde64.c">
+      <Filter>core\dependencies\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\utilities\renderer\renderer.cpp">
+      <Filter>core\dependencies\utilities\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\utilities\netvars\netvars.cpp">
+      <Filter>core\dependencies\utilities\netvars</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\utilities\md5\md5.cpp">
+      <Filter>core\dependencies\utilities\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\utilities\console\console.cpp">
+      <Filter>core\dependencies\utilities\console</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\utilities\csgo.cpp">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\utilities\settings.cpp">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\utilities\utilities.cpp">
+      <Filter>core\dependencies\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source-sdk\math\vector3d.cpp">
+      <Filter>source-sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="source-sdk\math\view_matrix.cpp">
+      <Filter>source-sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\skins\parser.cpp">
+      <Filter>core\core\features\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\skins\skins.cpp">
+      <Filter>core\core\features\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="core\menu\cfg.cpp">
+      <Filter>core\core\menu\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="core\menu\tabs\legit_tab.cpp" />
+    <ClCompile Include="core\menu\tabs\misc_tab.cpp" />
+    <ClCompile Include="core\menu\tabs\rage_tab.cpp" />
+    <ClCompile Include="core\menu\tabs\settings_tab.cpp" />
+    <ClCompile Include="core\menu\tabs\skins_tab.cpp" />
+    <ClCompile Include="core\menu\tabs\visuals_tab.cpp" />
+    <ClCompile Include="core\menu\cfg.cpp" />
+  </ItemGroup>
+</Project>
